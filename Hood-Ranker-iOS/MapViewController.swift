@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import ArcGIS
 
-class ViewController: UIViewController {
+class MapViewController: UIViewController {
 
+    @IBOutlet weak var mapView: AGSMapView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+
+        mapView.map = AGSMap(basemapType: .navigationVector, latitude: 47.6062, longitude: -122.3321, levelOfDetail: 10)
     }
 
 
