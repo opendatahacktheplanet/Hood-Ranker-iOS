@@ -1,0 +1,22 @@
+PODS:
+  - Apollo (0.9.5):
+    - Apollo/Core (= 0.9.5)
+  - Apollo/Core (0.9.5)
+  - ArcGIS-Runtime-SDK-iOS (100.4)
+
+DEPENDENCIES:
+  - Apollo
+  - ArcGIS-Runtime-SDK-iOS (~> 100.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Apollo
+    - ArcGIS-Runtime-SDK-iOS
+
+SPEC CHECKSUMS:
+  Apollo: 19caf3246d292bbb69ecad1bd098661f78222aba
+  ArcGIS-Runtime-SDK-iOS: 3e3f7480fe2a3b0c094ed57977cab1482e81ec6f
+
+PODFILE CHECKSUM: e67da6dee4a9d8e8b23091bdbb735fd31e5663bb
+
+COCOAPODS: 1.5.3

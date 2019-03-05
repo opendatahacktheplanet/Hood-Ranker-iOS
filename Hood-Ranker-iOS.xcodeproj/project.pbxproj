@@ -14,6 +14,9 @@
 		16141E11222B4737006F4016 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16141E0F222B4737006F4016 /* LaunchScreen.storyboard */; };
 		16141E1C222B4738006F4016 /* Hood_Ranker_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16141E1B222B4738006F4016 /* Hood_Ranker_iOSTests.swift */; };
 		16141E27222B4738006F4016 /* Hood_Ranker_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16141E26222B4738006F4016 /* Hood_Ranker_iOSUITests.swift */; };
+		475BB2488FE40BB0FC3F4ED2 /* Pods_Hood_Ranker_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A2E780392FE21F7D5B98F3 /* Pods_Hood_Ranker_iOSTests.framework */; };
+		7EBF435E181A50A4E968B56C /* Pods_Hood_Ranker_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A89E40E788DC8514C20830AB /* Pods_Hood_Ranker_iOSUITests.framework */; };
+		CCB3287FAE6A0D50ABEF7B26 /* Pods_Hood_Ranker_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCD09C23D271C325D4F1AC5 /* Pods_Hood_Ranker_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08740B74376AC7F11BC4EF4D /* Pods-Hood-Ranker-iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hood-Ranker-iOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hood-Ranker-iOSUITests/Pods-Hood-Ranker-iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
 		16141E03222B4736006F4016 /* Hood-Ranker-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hood-Ranker-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16141E06222B4736006F4016 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16141E08222B4736006F4016 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,14 @@
 		16141E22222B4738006F4016 /* Hood-Ranker-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hood-Ranker-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16141E26222B4738006F4016 /* Hood_Ranker_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hood_Ranker_iOSUITests.swift; sourceTree = "<group>"; };
 		16141E28222B4738006F4016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8072A2BF81958D9BC5EE7CBE /* Pods-Hood-Ranker-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hood-Ranker-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hood-Ranker-iOS/Pods-Hood-Ranker-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		85A2E780392FE21F7D5B98F3 /* Pods_Hood_Ranker_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hood_Ranker_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		923F21AF98882A0AE84610C5 /* Pods-Hood-Ranker-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hood-Ranker-iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hood-Ranker-iOSTests/Pods-Hood-Ranker-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		A38248C5E2AB4DBDA36DB9C5 /* Pods-Hood-Ranker-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hood-Ranker-iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hood-Ranker-iOSTests/Pods-Hood-Ranker-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A89E40E788DC8514C20830AB /* Pods_Hood_Ranker_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hood_Ranker_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1F7EF00337A0D34DAFA04F6 /* Pods-Hood-Ranker-iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hood-Ranker-iOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hood-Ranker-iOSUITests/Pods-Hood-Ranker-iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F06CC9A4CA7C6343FC50A84E /* Pods-Hood-Ranker-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hood-Ranker-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hood-Ranker-iOS/Pods-Hood-Ranker-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		FDCD09C23D271C325D4F1AC5 /* Pods_Hood_Ranker_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hood_Ranker_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCB3287FAE6A0D50ABEF7B26 /* Pods_Hood_Ranker_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				475BB2488FE40BB0FC3F4ED2 /* Pods_Hood_Ranker_iOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EBF435E181A50A4E968B56C /* Pods_Hood_Ranker_iOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F1501516FB878FB71E3F28D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDCD09C23D271C325D4F1AC5 /* Pods_Hood_Ranker_iOS.framework */,
+				85A2E780392FE21F7D5B98F3 /* Pods_Hood_Ranker_iOSTests.framework */,
+				A89E40E788DC8514C20830AB /* Pods_Hood_Ranker_iOSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		16141DFA222B4736006F4016 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +106,8 @@
 				16141E1A222B4738006F4016 /* Hood-Ranker-iOSTests */,
 				16141E25222B4738006F4016 /* Hood-Ranker-iOSUITests */,
 				16141E04222B4736006F4016 /* Products */,
+				55D2062EE531A151513030F6 /* Pods */,
+				0F1501516FB878FB71E3F28D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +152,19 @@
 			path = "Hood-Ranker-iOSUITests";
 			sourceTree = "<group>";
 		};
+		55D2062EE531A151513030F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F06CC9A4CA7C6343FC50A84E /* Pods-Hood-Ranker-iOS.debug.xcconfig */,
+				8072A2BF81958D9BC5EE7CBE /* Pods-Hood-Ranker-iOS.release.xcconfig */,
+				A38248C5E2AB4DBDA36DB9C5 /* Pods-Hood-Ranker-iOSTests.debug.xcconfig */,
+				923F21AF98882A0AE84610C5 /* Pods-Hood-Ranker-iOSTests.release.xcconfig */,
+				C1F7EF00337A0D34DAFA04F6 /* Pods-Hood-Ranker-iOSUITests.debug.xcconfig */,
+				08740B74376AC7F11BC4EF4D /* Pods-Hood-Ranker-iOSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16141E2B222B4738006F4016 /* Build configuration list for PBXNativeTarget "Hood-Ranker-iOS" */;
 			buildPhases = (
+				F8AC9F7E9E7845D88BD956EC /* [CP] Check Pods Manifest.lock */,
 				16141DFF222B4736006F4016 /* Sources */,
 				16141E00222B4736006F4016 /* Frameworks */,
 				16141E01222B4736006F4016 /* Resources */,
+				6A6B89F98795D6BED4072BAD /* [CP] Embed Pods Frameworks */,
+				5480C92674AA9A978F38043F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16141E2E222B4738006F4016 /* Build configuration list for PBXNativeTarget "Hood-Ranker-iOSTests" */;
 			buildPhases = (
+				284CD4D782F58DDD2CB9136B /* [CP] Check Pods Manifest.lock */,
 				16141E13222B4738006F4016 /* Sources */,
 				16141E14222B4738006F4016 /* Frameworks */,
 				16141E15222B4738006F4016 /* Resources */,
@@ -167,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16141E31222B4738006F4016 /* Build configuration list for PBXNativeTarget "Hood-Ranker-iOSUITests" */;
 			buildPhases = (
+				A57AFE59C8AF4C25EE3863F1 /* [CP] Check Pods Manifest.lock */,
 				16141E1E222B4738006F4016 /* Sources */,
 				16141E1F222B4738006F4016 /* Frameworks */,
 				16141E20222B4738006F4016 /* Resources */,
@@ -250,6 +295,103 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		284CD4D782F58DDD2CB9136B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hood-Ranker-iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5480C92674AA9A978F38043F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Hood-Ranker-iOS/Pods-Hood-Ranker-iOS-resources.sh",
+				"${PODS_ROOT}/ArcGIS-Runtime-SDK-iOS/ArcGIS.framework/ArcGIS.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ArcGIS.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hood-Ranker-iOS/Pods-Hood-Ranker-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A6B89F98795D6BED4072BAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Hood-Ranker-iOS/Pods-Hood-Ranker-iOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Apollo/Apollo.framework",
+				"${PODS_ROOT}/ArcGIS-Runtime-SDK-iOS/ArcGIS.framework",
+				"${PODS_ROOT}/ArcGIS-Runtime-SDK-iOS/ArcGIS.framework.dSYM",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Apollo.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ArcGIS.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/ArcGIS.framework.dSYM",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hood-Ranker-iOS/Pods-Hood-Ranker-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A57AFE59C8AF4C25EE3863F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hood-Ranker-iOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8AC9F7E9E7845D88BD956EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hood-Ranker-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		16141DFF222B4736006F4016 /* Sources */ = {
@@ -430,6 +572,7 @@
 		};
 		16141E2C222B4738006F4016 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F06CC9A4CA7C6343FC50A84E /* Pods-Hood-Ranker-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +590,7 @@
 		};
 		16141E2D222B4738006F4016 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8072A2BF81958D9BC5EE7CBE /* Pods-Hood-Ranker-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +608,7 @@
 		};
 		16141E2F222B4738006F4016 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A38248C5E2AB4DBDA36DB9C5 /* Pods-Hood-Ranker-iOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +629,7 @@
 		};
 		16141E30222B4738006F4016 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 923F21AF98882A0AE84610C5 /* Pods-Hood-Ranker-iOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +650,7 @@
 		};
 		16141E32222B4738006F4016 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1F7EF00337A0D34DAFA04F6 /* Pods-Hood-Ranker-iOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +670,7 @@
 		};
 		16141E33222B4738006F4016 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08740B74376AC7F11BC4EF4D /* Pods-Hood-Ranker-iOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
